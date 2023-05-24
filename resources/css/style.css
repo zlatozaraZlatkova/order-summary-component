@@ -169,7 +169,7 @@ p {
 
 @media (max-width: 450px) {
     body {
-        background-color: var(--very-pale-blue);
+       
         background-image: url(/resources/images/pattern-background-mobile.svg) no-repeat;
         background-size: auto;
     }
