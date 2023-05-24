@@ -23,11 +23,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--pale-blue);
     color: var(--dark-blue);
     font-size: 16px;
     font-family: "Red Hat Display", sans-serif;
+    background: url(/resources/images/pattern-background-desktop.svg) no-repeat;
+    background-color: var(--pale-blue);
+    background-size: contain;
+    
 }
+
+    
 
 h1 {
     font-size: 32px;
@@ -58,6 +63,7 @@ li {
     border: 0.1px solid var(--pale-blue);
     box-shadow: 5px 5px 20px 1px var(--dark-blue-border);
     background-color: white;
+ 
 }
 
 .header img {
@@ -162,9 +168,15 @@ p {
 }
 
 @media (max-width: 450px) {
+    body {
+        background-color: var(--very-pale-blue);
+        background-image: url(/resources/images/pattern-background-mobile.svg) no-repeat;
+        background-size: auto;
+    }
     .container {
         margin: 0px 30px 0px 30px;
         max-width: 300px;
+       
     }
 
     h1 {
