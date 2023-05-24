@@ -23,8 +23,8 @@ This a perfect project to start building confidence with layouts.
 
 ### Links
 
-- Solution URL: [repository]()
-- visit website [website]()
+- Solution URL: [repository](https://github.com/zlatozaraZlatkova/order-summary-component)
+- visit website [website](https://component-summary-order.netlify.app/)
 
 
 ## My process
